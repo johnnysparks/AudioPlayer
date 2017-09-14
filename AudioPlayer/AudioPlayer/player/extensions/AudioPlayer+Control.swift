@@ -11,7 +11,7 @@ import CoreMedia
     import UIKit
 #endif
 
-extension AudioPlayer {
+public extension AudioPlayer {
     /// Resumes the player.
     public func resume() {
         //Ensure pause flag is no longer set
